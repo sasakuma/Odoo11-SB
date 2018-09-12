@@ -19,7 +19,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['stock.valuation.adjustment.lines'],
+    'depends': ['stock.move'],
 
     # always loaded
     'data': [
