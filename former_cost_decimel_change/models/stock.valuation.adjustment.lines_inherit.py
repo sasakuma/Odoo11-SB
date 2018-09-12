@@ -4,7 +4,6 @@ from odoo import models, fields
 
 class StockvaluationInherit(models.Model):
     _inherit = 'stock.valuation.adjustment.lines'
-    _inherit = 'stock.move'
 
 
 
