@@ -7,5 +7,6 @@ class StockvaluationInherit(models.Model):
     _inherit = 'stock.move'
 
 
+
 former_cost_per_unit = fields.Float('Former Cost(Per Unit)', compute='_compute_former_cost_per_unit',
-    digits=dp.get_precision('Product Price'), store=True)
+    digits=5), store=True)
